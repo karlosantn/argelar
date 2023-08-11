@@ -1,0 +1,129 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 43px;
+}
+
+/* CABEÇALHO */
+#cabecalho{
+    background: url(./imagens/bkgcbç.svg) 0%;
+    padding: 180px;
+    text-align: center;
+}
+
+#logo {
+    width: 800px;
+}
+
+/* SOBRE NÓS */
+#titulosobre {
+    text-align: center;
+    background-color: #C2E7F7;
+}
+
+#titulo {
+    padding-top: 25px;
+}
+
+#txtsobre {
+    background-color: #C2E7F7;
+    text-align: center;
+}
+
+#msvs {
+    background-color: #C2E7F7;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#imgvs {
+    width: 400px;
+    margin-right: 10px;
+}
+
+#imgms {
+    width: 400px;
+}
+
+/* SERVIÇOS */
+#tituloservicos {
+    text-align: center;
+    padding-top: 25px;
+    background-color: #EAEAEA;
+}
+
+#servicos {
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+    padding-bottom: 40px;
+    background-color: #EAEAEA;
+}
+
+.card {
+    padding-top: 15px;
+    width: 90%;
+    justify-content: space-evenly;
+}
+
+#esquerda, #esquerda2 {
+    display: none;
+}
+
+#direita2 {
+    display: none;
+}
+
+#direita{
+    margin-right: 15px;
+}
+
+#hig, #bed, #pmoc, #cmf {
+    display: none;
+}
+
+.seta {
+    margin-top: 90px;
+}
+
+#saiba {
+    padding: 30px;
+    text-align: center;
+    background-color: #EAEAEA;
+
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    color: white;
+    text-decoration: none;
+    background: #038ED4;
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: #020891;
+    box-shadow: 0px 15px 20px rgba(100, 97, 97, 0.573);
+}
+
+button:hover{
+    background-color: #61b8dd;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px rgba(100, 97, 97, 0.573);
+    transition-duration: 0.5s;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    width: 100%;
+  }
