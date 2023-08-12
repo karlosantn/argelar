@@ -169,7 +169,7 @@ a {
 input,
 textarea,
 button {
-  width: 20%;
+  width: 250px;
   margin-bottom: 16px;
   border-radius: 4px;
   font-size: 16px;
@@ -185,3 +185,125 @@ input {
   height: 10px;
 }
 
+@media only screen and (max-width: 768px) {
+    * {
+        font-family: 'Montserrat', sans-serif;
+        margin: 0px;
+        box-sizing: border-box; /* Adicionado para lidar com o modelo de caixa */
+    }
+    
+    h1 {
+        font-size: 24px; /* Reduzido o tamanho da fonte para dispositivos menores */
+        font-weight: 600;
+    }
+    
+    /* CABEÇALHO */
+    #cabecalho {
+        background: url(./imagens/bkgcbç.svg) 0%;
+        padding: 80px 20px; /* Reduzido o padding vertical e horizontal */
+        text-align: center;
+    }
+    
+    #logo {
+        max-width: 100%; /* Garante que a imagem não ultrapasse a largura da tela */
+    }
+    
+    /* SOBRE NÓS */
+    #titulosobre {
+        text-align: center;
+        background-color: #C2E7F7;
+        padding: 20px; /* Reduzido o padding */
+    }
+    
+    #titulo {
+        padding-top: 15px;
+    }
+    
+    #txtsobre {
+        background-color: #C2E7F7;
+        text-align: center;
+        padding: 20px; /* Reduzido o padding */
+    }
+    
+    #msvs {
+        background-color: #C2E7F7;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Melhor disposição em telas menores */
+        justify-content: space-evenly;
+        text-align: center;
+        padding: 15px; /* Reduzido o padding */
+    }
+    
+    #imgvs, #imgms {
+        width: 100%; /* Garante que a imagem não ultrapasse a largura da coluna */
+        margin: 10px 0; /* Espaçamento vertical */
+    }
+    
+    /* SERVIÇOS */
+    #tituloservicos {
+        text-align: center;
+        padding: 20px; /* Reduzido o padding */
+        background-color: #EAEAEA;
+    }
+    
+    #servicos {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Melhor disposição em telas menores */
+        justify-content: space-evenly;
+        padding: 20px; /* Reduzido o padding */
+        background-color: #EAEAEA;
+    }
+    
+    .card {
+        width: 90%; /* Aumentado ligeiramente a largura para melhor uso do espaço */
+        margin: 0 auto; /* Centraliza horizontalmente */
+    }
+    
+    /* Empresas */
+    #tituloemp {
+        text-align: center;
+        background-color: #C2E7F7;
+        padding: 20px; /* Reduzido o padding */
+    }
+    
+    #empresas {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Melhor disposição em telas menores */
+        justify-content: space-around;
+        padding: 20px; /* Reduzido o padding */
+        background-color: #C2E7F7;
+    }
+    
+    .emp {
+        width: 100%; /* Garante que a imagem não ultrapasse a largura da coluna */
+    }
+    
+    /* CONTATO */
+    #tituloct {
+        text-align: center;
+        padding: 20px; /* Reduzido o padding */
+        background-color: #EAEAEA;
+    }
+    
+    #sub {
+        padding: 10px 0; /* Reduzido o padding vertical */
+        text-align: center;
+        background-color: #EAEAEA;
+    }
+    
+    input,
+    textarea,
+    button {
+        width: 100%; /* Ocupa a largura da coluna */
+        margin-bottom: 16px;
+        border-radius: 4px;
+        font-size: 16px;
+        border-color: #038ED4;
+        padding: 10px 16px; /* Ajustado o padding */
+    }
+    
+    input {
+        height: auto; /* Altura automática */
+    }
+    
+}
