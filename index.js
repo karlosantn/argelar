@@ -59,3 +59,18 @@ function RolarParaEsquerda2() {
     Esquerda.style = "display:flex; margin-top:90px; margin-left: 15px"
     Esquerda2.style = "display:none"
 }
+
+function abrirWhatsapp() {
+      var nome = document.getElementById("nome").value;
+      var telefone = document.getElementById("telefone").value;
+      var email = document.getElementById("email").value;
+      var msg = document.getElementById("msg").value;
+      var url = "https://wa.me/+5531997991873?text="
+        + "*Formulário de Contato*" + "%0a"
+        + "%0a"
+        + "*Nome*: " + nome + "%0a"
+        + "*Telefone*: " + telefone + "%0a"
+        + "*E-mail*: " + email + "%0a"
+        + "*Mensagem*: " + msg;
+      window.open(url, '_blank').focus();
+    }

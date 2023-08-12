@@ -4,7 +4,8 @@
 }
 
 h1 {
-    font-size: 43px;
+    font-size: 30px;
+    font-weight: 600;
 }
 
 /* CABEÇALHO */
@@ -62,14 +63,14 @@ h1 {
 #servicos {
     display: grid;
     grid-auto-flow: column;
-    text-align: center;
+    justify-content: space-evenly;
     padding-bottom: 40px;
     background-color: #EAEAEA;
 }
 
 .card {
     padding-top: 15px;
-    width: 90%;
+    width: 80%;
     justify-content: space-evenly;
 }
 
@@ -148,3 +149,39 @@ a {
 .emp {
     width: 400px;
 }
+
+/* CONTATO */
+
+#tituloct {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    background-color: #EAEAEA;
+}
+
+#sub {
+    padding-top: 10px;
+    padding-bottom: 25px;
+    text-align: center;
+    background-color: #EAEAEA;
+}
+
+input,
+textarea,
+button {
+  width: 20%;
+  margin-bottom: 16px;
+  border-radius: 4px;
+  font-size: 16px;
+  border-color: #038ED4;
+}
+
+input,
+textarea {
+  padding: 16px;
+}
+
+input {
+  height: 10px;
+}
+
