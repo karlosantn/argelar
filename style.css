@@ -169,7 +169,7 @@ a {
 input,
 textarea,
 button {
-  width: 250px;
+  width: 20%;
   margin-bottom: 16px;
   border-radius: 4px;
   font-size: 16px;
@@ -185,125 +185,107 @@ input {
   height: 10px;
 }
 
-@media only screen and (max-width: 768px) {
-    * {
-        font-family: 'Montserrat', sans-serif;
-        margin: 0px;
-        box-sizing: border-box; /* Adicionado para lidar com o modelo de caixa */
+@media only screen and (max-width: 768px){
+
+    *{
+      margin: 0px;
+    }
+    /* Cabeçalho */
+    #cabecalho{
+      width: auto;
+      padding: 45px;
     }
     
-    h1 {
-        font-size: 24px; /* Reduzido o tamanho da fonte para dispositivos menores */
-        font-weight: 600;
+    #logo{
+      width: 100%;
     }
     
-    /* CABEÇALHO */
-    #cabecalho {
-        background: url(./imagens/bkgcbç.svg) 0%;
-        padding: 80px 20px; /* Reduzido o padding vertical e horizontal */
+    /* Sobre nós */
+    #titulosobre{
+      font-weight: 600;
+      font-size: 50px;
+      margin-bottom: 0px;
+    }
+    
+    #sobre{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    
+    #imgsobre{
+      width: 70%;
+      height: 70%;
+    }
+    
+    #msvs{
+      display: flex;
+      flex-direction: column;
+      margin-top: 0px;
+      text-align: center;
+    }
+        
+    #vs{
+      margin-top: 10px;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+    #imgvs {
+        width: 70%;
+    }
+
+    #ms{
+        margin-top: 10px;
+        margin-bottom: 10px;
         text-align: center;
     }
-    
-    #logo {
-        max-width: 100%; /* Garante que a imagem não ultrapasse a largura da tela */
+  
+    #imgms {
+        width: 71%;
     }
     
-    /* SOBRE NÓS */
-    #titulosobre {
-        text-align: center;
-        background-color: #C2E7F7;
-        padding: 20px; /* Reduzido o padding */
-    }
-    
-    #titulo {
-        padding-top: 15px;
-    }
-    
-    #txtsobre {
-        background-color: #C2E7F7;
-        text-align: center;
-        padding: 20px; /* Reduzido o padding */
-    }
-    
-    #msvs {
-        background-color: #C2E7F7;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Melhor disposição em telas menores */
-        justify-content: space-evenly;
-        text-align: center;
-        padding: 15px; /* Reduzido o padding */
-    }
-    
-    #imgvs, #imgms {
-        width: 100%; /* Garante que a imagem não ultrapasse a largura da coluna */
-        margin: 10px 0; /* Espaçamento vertical */
-    }
-    
-    /* SERVIÇOS */
-    #tituloservicos {
-        text-align: center;
-        padding: 20px; /* Reduzido o padding */
-        background-color: #EAEAEA;
-    }
-    
+    /* Serviços */    
     #servicos {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Melhor disposição em telas menores */
-        justify-content: space-evenly;
-        padding: 20px; /* Reduzido o padding */
-        background-color: #EAEAEA;
-    }
+        display: flex; /* Trocado de grid para flex para uma coluna vertical */
+        flex-direction: column; /* Define a direção da coluna */
+        align-items: center; /* Centraliza horizontalmente */    }
     
-    .card {
-        width: 90%; /* Aumentado ligeiramente a largura para melhor uso do espaço */
-        margin: 0 auto; /* Centraliza horizontalmente */
+    .card{
+      padding-left: 10px;
+      margin-top: 5px;
+      margin-bottom: 5px;
     }
-    
-    /* Empresas */
-    #tituloemp {
-        text-align: center;
-        background-color: #C2E7F7;
-        padding: 20px; /* Reduzido o padding */
+
+    .seta{
+        align-items: start;
+        padding: 0px;
     }
-    
+
+    /* Clientes*/ 
     #empresas {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Melhor disposição em telas menores */
-        justify-content: space-around;
-        padding: 20px; /* Reduzido o padding */
-        background-color: #C2E7F7;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     
-    .emp {
-        width: 100%; /* Garante que a imagem não ultrapasse a largura da coluna */
-    }
-    
-    /* CONTATO */
-    #tituloct {
-        text-align: center;
-        padding: 20px; /* Reduzido o padding */
-        background-color: #EAEAEA;
-    }
-    
-    #sub {
-        padding: 10px 0; /* Reduzido o padding vertical */
-        text-align: center;
-        background-color: #EAEAEA;
-    }
-    
+    /* Contato */
     input,
     textarea,
     button {
-        width: 100%; /* Ocupa a largura da coluna */
+        width: 20%;
         margin-bottom: 16px;
         border-radius: 4px;
         font-size: 16px;
         border-color: #038ED4;
-        padding: 10px 16px; /* Ajustado o padding */
     }
-    
+
+    input,
+    textarea {
+        padding: 16px;
+    }
+
     input {
-        height: auto; /* Altura automática */
+        height: 10px;
     }
-    
-}
