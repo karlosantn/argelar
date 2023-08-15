@@ -88,7 +88,7 @@ h1 {
 }
 
 #direita{
-    margin-right: 15px;
+    margin-right: 50px;
 }
 
 #hig, #bed, #pmoc, #cmf {
@@ -252,6 +252,7 @@ input {
     
     /* Serviços */    
     #servicos {
+        padding-top: 20px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -265,8 +266,13 @@ input {
     }
 
     .seta{
-        align-items: start;
-        padding: 0px;
+        margin-top: 0px;
+        padding-top: 15px;
+    }
+
+    .pulo {
+        display: flex;
+        flex-direction: row;
     }
 
     /* Clientes*/ 

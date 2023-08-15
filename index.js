@@ -17,8 +17,8 @@ function RolarParaDireita() {
     pmoc.style = "display:none"
     cmf.style = "display:none"
     Direita.style = "display:none"
-    Direita2.style = "display:flex; margin-top:90px; margin-right: 15px"
-    Esquerda.style = "display:flex; margin-top:90px; margin-left: 15px"
+    Direita2.style = "display:flex"
+    Esquerda.style = "display:flex"
 }
 
 function RolarParaEsquerda() {
@@ -28,7 +28,7 @@ function RolarParaEsquerda() {
     bed.style = "display:none"
     pmoc.style = "display:none"
     cmf.style = "display:none"
-    Direita.style = "display:flex; margin-top:90px; margin-right: 15px"
+    Direita.style = "display:flex"
     Direita2.style = "display:none"
     Esquerda.style = "display:none"
     Esquerda2.style = "display:none"
@@ -44,7 +44,7 @@ function RolarParaDireita2() {
     Direita.style = "display:none"
     Direita2.style = "display:none"
     Esquerda.style = "display:none"
-    Esquerda2.style = "display:flex; margin-top:90px; margin-left: 15px"
+    Esquerda2.style = "display:flex"
 }
 
 function RolarParaEsquerda2() {
@@ -55,8 +55,8 @@ function RolarParaEsquerda2() {
     pmoc.style = "display:none"
     cmf.style = "display:none"
     Direita.style = "display:none"
-    Direita2.style = "display:flex; margin-top:90px; margin-right: 15px"
-    Esquerda.style = "display:flex; margin-top:90px; margin-left: 15px"
+    Direita2.style = "display:flex"
+    Esquerda.style = "display:flex"
     Esquerda2.style = "display:none"
 }
 
