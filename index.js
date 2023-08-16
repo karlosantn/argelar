@@ -12,8 +12,8 @@ var Esquerda2 = window.document.getElementById("esquerda2")
 function RolarParaDireita() {
     insarc.style = "display:none"
     inselt.style = "display:none"
-    hig.style = "display:flex; margin-left:50px"
-    bed.style = "display:flex; margin-left:50px"
+    hig.style = "display:flex; margin-left:35px"
+    bed.style = "display:flex; margin-left:35px"
     pmoc.style = "display:none"
     cmf.style = "display:none"
     Direita.style = "display:none"
@@ -22,8 +22,8 @@ function RolarParaDireita() {
 }
 
 function RolarParaEsquerda() {
-    insarc.style = "display:flex; margin-left:50px"
-    inselt.style = "display:flex; margin-left:50px"
+    insarc.style = "display:flex; margin-left:35px"
+    inselt.style = "display:flex; margin-left:35px"
     hig.style = "display:none"
     bed.style = "display:none"
     pmoc.style = "display:none"
@@ -39,8 +39,8 @@ function RolarParaDireita2() {
     inselt.style = "display:none"
     hig.style = "display:none"
     bed.style = "display:none"
-    pmoc.style = "display:flex; margin-left:50px"
-    cmf.style = "display:flex; margin-left:50px"
+    pmoc.style = "display:flex; margin-left:35px"
+    cmf.style = "display:flex; margin-left:35px"
     Direita.style = "display:none"
     Direita2.style = "display:none"
     Esquerda.style = "display:none"
@@ -50,8 +50,8 @@ function RolarParaDireita2() {
 function RolarParaEsquerda2() {
     insarc.style = "display:none"
     inselt.style = "display:none"
-    hig.style = "display:flex; margin-left:50px"
-    bed.style = "display:flex; margin-left:50px"
+    hig.style = "display:flex; margin-left:35px"
+    bed.style = "display:flex; margin-left:35px"
     pmoc.style = "display:none"
     cmf.style = "display:none"
     Direita.style = "display:none"
@@ -65,7 +65,7 @@ function abrirWhatsapp() {
       var telefone = document.getElementById("telefone").value;
       var email = document.getElementById("email").value;
       var msg = document.getElementById("msg").value;
-      var url = "https://wa.me/+553172055348?text="
+      var url = "https://wa.me/+553192657172?text="
         + "*Formulário de Contato*" + "%0a"
         + "%0a"
         + "*Nome*: " + nome + "%0a"
